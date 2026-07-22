@@ -21,7 +21,7 @@ class Solution {
         List<List<Integer>> ans = new ArrayList<>();
 
         //find triplet without duplicates
-        for (int l=0; l<arr.length; l++) {
+        for (int l=0; l<arr.length-2; l++) {
             if (l>0 && arr[l]==arr[l-1])
                 continue;
             int target = -(arr[l]);
