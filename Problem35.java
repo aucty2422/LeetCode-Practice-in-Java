@@ -2,7 +2,7 @@
 Problem 35: Search Insert Position
 
 Approach: (Binary Search)
-1. Find the index where nums[index]>=target
+1. Find the first index where nums[index]>=target
 2. If the target exists, return it's index
 3. Otherwise, return the index where it should be inserted
 
