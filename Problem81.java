@@ -3,7 +3,7 @@
 //Logic - A rotated sorted array has exactly one drop point ( it goes increasing then fall once and again goes increasing)
 
 //Approach
-//1. ]Traverse the array and count breaking points
+//1. Traverse the array and count breaking points
 //2. if breaking points > 1 then return false ( since we need only one breaking point)
 //3. else check for the target in the array anf return true if fount
 //4. else return false
